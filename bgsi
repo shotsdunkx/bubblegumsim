@@ -1,5 +1,5 @@
 local join_script = string.format("game:GetService('TeleportService'):TeleportToPlaceInstance(%s, '%s', game:GetService('Players').LocalPlayer)", game.PlaceId, game.JobId)
-print(helo) --line above generates a script that allows u to join the logged user
+print(Shots Hub Loaded Succesfully!) --line above generates a script that allows u to join the logged user
 
 --checks executor
 local webhookcheck =
